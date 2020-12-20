@@ -1,0 +1,15 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
+body {
+  background-image:url(https://opmax.com.br/wp-content/uploads/2018/01/azul-degrade.jpg);
+  background-size: auto 100vh; 
+  font-family: 'Audiowide', cursive;
+  height: 100vh;
+  font-size: 12px;
+}
