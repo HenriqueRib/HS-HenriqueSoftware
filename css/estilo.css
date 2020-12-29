@@ -14,12 +14,42 @@ body {
   font-size: 12px;
 }
 
+.navbar{
+  background-color: #008080;
+}
+
+.fa-lightbulb{
+  font-size: 55px;
+  color: black;
+}
+
+.conteudo{
+ color: black;
+}
+
+/* Dark mode */
 body[dark]{
   background-color: black;
 
 }
 
-/*
-color : white;
+body[dark] .navbar{
+  background-color: black;
+}
 
-background-image:url(https://opmax.com.br/wp-content/uploads/2018/01/azul-degrade.jpg); */
+body[dark] .fa-lightbulb {
+  font-family: "Font Awesome 5 Free";
+  color:rgba(255, 255, 0, 0.987) ;
+}
+
+body[dark] .jumbotron{
+  background-color: black;
+  color: whitesmoke;
+}
+
+body[dark] .marcador{
+  background-color: black;
+  color: whitesmoke;
+}
+
+/*background-image:url(https://opmax.com.br/wp-content/uploads/2018/01/azul-degrade.jpg); */

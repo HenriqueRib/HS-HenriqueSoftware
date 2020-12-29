@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- fixed-top -->
-    <nav class="navbar navbar-expand-md navbar-dark  " style="background: #008080">
+    <nav class="navbar navbar-expand-md navbar-dark" >
       <p class="m-3" style="color: white;">
         <a href="index.html" class="navbar-brand" title="Voltar para o inicio">
           Henrique < / > Software
@@ -27,7 +27,7 @@
       <!-- Button hambuger -->
       <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>
-      </button>  
+      </button> 
 
       <div class="d-none d-md-block">  
         <a href="index.html" class="navbar-brand" title="Voltar para o inicio">
@@ -58,13 +58,6 @@
     </nav>
 
     <!-- Conteudo principal --><br><br><br><br>
-
-    <label for="input-dark-mode">
-      <a class="button">
-        <input type="checkbox" id="input-dark-mode">
-        <i class="fas fa-lightbulb"></i>
-      </a>
-    </label>
     
     <section>
       <div id="carousel-legenda" class="text-center carousel slide" data-ride="carousel"><!--Carousel -->
@@ -142,21 +135,25 @@
     <hr>
 
     <!-- Conteudo principal -->
-    <div class="container caixa">  
+    <div class="container caixa conteudo">  
       <div class="row ">
         <div class="col-sm-9 d-flex jumbotron">
             <div class="text-left">
-              <h3 class="border-bottom text-center mb-4">Bem-vindo a minha Página na web!</h3>
+              <h3 class="border-bottom text-center mb-4">Bem-vindo a minha Página na web!  
+                <label for="input-dark-mode">
+                  <a class="button">
+                    <input type="checkbox" id="input-dark-mode">
+                    <i class="fas fa-lightbulb "></i>
+                  </a>
+                </label>
+              </h3>
               <p class="lead">&nbsp;&nbsp;&nbsp;Neste site deixarei algumas informações sobre mim, projetos e atividades realizadas e o meu contato.</p>
               <p class="lead">&nbsp;&nbsp;&nbsp;Desde 2018 venho estudando Engenharia de Software e desde então venho consolidando meu conhecimento na área da Tecnologia 
               da Informação. Para que todos possam saber sobre meu interese em trabalhar com desenvolvimento de software, deixarei 
               disponível alguns projetos e atividades no qual ja trabalhei.</p> 
               <p class="lead">&nbsp;&nbsp;&nbsp;Meu principal objetivo é encontrar uma oportunidade de estágio na área. Caso queira saber um pouco mais sobre min vá em
               <a href="HsystemQS.html"title="Ir para a página Quem sou">Quem sou</a> , ou em <a href="HsystemP.html"title="Ir para a página Projetos">Projetos</a> para saber o que já fiz .</p>
-              <br>
-              <button><a href="Java_Script/game.html"><img style="width: 15px;height: 15px;" src="Java_Script/imagens/mosquito.png"></a></button>
-              <button style="filter: invert(100%)"><img style="width: 15px;height: 15px;" src="Java_Script/imagens/mosquito.png"></button>
-              <button style="filter: hue-rotate(180deg) invert(1)"><img style="width: 15px;height: 15px;" src="Java_Script/imagens/mosquito.png"></button>          
+              <br>     
             </div>
               
           <a href="https://wa.me/5511955523543" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;" target="_blank">
@@ -206,8 +203,8 @@
           <!-- Inicio Contatdor visual-->
           <div align=center>
             <br><br>
-            <a href='index.html'>
-              <img src='https://contador.s12.com.br/img-Y981Ba84Z2z7BZYb-40.gif' border='0' alt='counter free'>
+            <a>
+              <img src='https://contador.s12.com.br/img-Y981Ba84Z2z7BZYb-40.gif' alt='counter free' style="border=0">
             </a>
             <script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=Y981Ba84Z2z7BZYb'>
             </script>
@@ -237,14 +234,17 @@
       <br>
       <a href="https://www.webcontadores.com"></a>
       <noscript>
-        <a href="index.html" title="contador de visitas para blog">
-          <img src="https://counter11.stat.ovh/private/webcontadores.php?c=qpbm1p1w5awqzklyjg7qassmg9gjpda7" border="0" title="contador de visitas para blog" alt="contador de visitas para blog">
+        <a title="contador de visitas para blog">
+          <img src="https://counter11.stat.ovh/private/webcontadores.php?c=qpbm1p1w5awqzklyjg7qassmg9gjpda7" title="contador de visitas para blog" alt="contador de visitas para blog" style="border=0">
         </a>
       </noscript>
     </div>
     <!--  Fim contador -->
 
     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/dark.js"></script>
   </footer>
