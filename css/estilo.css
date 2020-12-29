@@ -17,6 +17,7 @@ body {
   background-color:white;
   background-size: auto 100vh; 
   font-family: 'Audiowide', cursive;
+  src: url("./font/Audiowide-Regular.ttf");
   height: 100vh;
   font-size: 12px;
 }
