@@ -13,10 +13,11 @@
 }
 
 /* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 body {
   background-color:white;
   background-size: auto 100vh; 
-  font-family: 'Audiowide', cursive;
+  font-family: 'Audiowide', cursive, sans-serif;
   height: 100vh;
   font-size: 12px;
 }
