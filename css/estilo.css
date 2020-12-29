@@ -17,7 +17,7 @@
 body {
   background-color:white;
   background-size: auto 100vh; 
-  font-family: 'Audiowide', cursive, sans-serif;
+  font-family: 'sans-serif', cursive, Audiowide;
   height: 100vh;
   font-size: 12px;
 }
