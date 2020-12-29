@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+/* se a tela tiver pelo menos de 360px vai carregar estes estilos */
+@media (max-width: 360px) {
+  .navbar-brand {
+    font-size: 13px;
+  }
+}
+
 /* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
 body {
   background-color:white;
@@ -15,12 +22,12 @@ body {
 }
 
 .navbar{
-  background-color: #008080;
+  background-color: #0a3450;
 }
 
 .fa-lightbulb{
-  font-size: 55px;
-  color: black;
+  font-size: 20px;
+  color:rgba(242, 242, 143, 0.919) ;
 }
 
 .conteudo{
@@ -30,7 +37,6 @@ body {
 /* Dark mode */
 body[dark]{
   background-color: black;
-
 }
 
 body[dark] .navbar{
@@ -39,7 +45,7 @@ body[dark] .navbar{
 
 body[dark] .fa-lightbulb {
   font-family: "Font Awesome 5 Free";
-  color:rgba(255, 255, 0, 0.987) ;
+  color: rgba(99, 94, 94, 0.987);
 }
 
 body[dark] .jumbotron{
