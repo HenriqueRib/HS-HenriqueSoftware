@@ -12,8 +12,13 @@
   }
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
 /* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
 body {
   background-color:white;
   background-size: auto 100vh; 
@@ -24,6 +29,7 @@ body {
 
 .navbar{
   background-color: #0a3450;
+  font-size: 25px;
 }
 
 .fa-lightbulb{

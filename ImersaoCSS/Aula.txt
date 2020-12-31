@@ -1,0 +1,25 @@
+Aula 1: CSS para Página Pessoal
+
+Organizar o texto CSS em forma alfabetica, Uma boa pratica
+background-size: auto 100vh; // vh 100 porcento absoluto
+https://codepen.io/felipedotcom/pen/WNQyvBX
+
+https://henriquerib.github.io/ImersaoCSS/
+
+https://css-doodle.com/
+
+https://bennettfeely.com/clippy/
+
+https://fonts.google.com/
+
+Eu quero resolver um problema, Agora a forma que to resolvendo tem que tender as consequencia das minhas escolhas 
+
+https://www.alura.com.br/imersao-css/aula01-css-pagina-pessoal?utm_campaign=imersao_hipsterscss_aula_01&utm_medium=email&utm_source=RD+Station
+
+https://www.alura.com.br/imersao-css/aula02-css-pagina-pessoal?utm_campaign=imersao_hipsterscss_aula_02&utm_medium=email&utm_source=RD+Station
+Conceito de mobile first
+
+https://www.alura.com.br/imersao-css/aula03-grid?utm_campaign=imersao_hipsterscss_aula_03&utm_medium=email&utm_source=RD+Station
+
+
+http://www.vanessametonini.com.br/imersaocss/a5/#sobre
