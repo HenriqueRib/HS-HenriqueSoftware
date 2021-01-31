@@ -1,0 +1,68 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* se a tela tiver pelo menos de 360px vai carregar estes estilos */
+@media (max-width: 360px) {
+  .navbar-brand {
+    font-size: 13px;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
+body {
+  background-color:white;
+  background-size: auto 100vh; 
+  font-family:  Gill Sans, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  height: 100vh;
+  font-size: 12px;
+}
+
+.navbar{
+  background-color: #0a3450;
+  font-size: 25px;
+}
+
+.fa-lightbulb{
+  font-size: 20px;
+  color:rgba(242, 242, 143, 0.919) ;
+}
+
+.conteudo{
+ color: black;
+}
+
+/* Dark mode */
+body[dark]{
+  background-color: black;
+}
+
+body[dark] .navbar{
+  background-color: black;
+}
+
+body[dark] .fa-lightbulb {
+  font-family: "Font Awesome 5 Free";
+  color: rgba(99, 94, 94, 0.987);
+}
+
+body[dark] .jumbotron{
+  background-color: black;
+  color: whitesmoke;
+}
+
+body[dark] .marcador{
+  background-color: black;
+  color: whitesmoke;
+}
+
+/*background-image:url(https://opmax.com.br/wp-content/uploads/2018/01/azul-degrade.jpg); */
