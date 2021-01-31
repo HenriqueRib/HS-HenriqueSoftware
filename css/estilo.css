@@ -24,8 +24,7 @@
 
 /* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
 body {
-
-  background-image:url('https://www.ofertaviva.com.br/photo-5/tecnologia-moderna-mural-wallpapers-para-o-escritorio-esports-salao-sala-de-estar-papel-parede-3d-azul-luz-brilhando-cubos.jpg');
+  background-image:url('https://image.freepik.com/vetores-gratis/fundo-branco-elegante-textura_23-2148438345.jpg');
   background-size: auto 100vh; 
   font-family: 'Audiowide', cursive;
   height: 100vh;
@@ -109,11 +108,14 @@ a:hover {
     opacity: 1;
   }
 }
-
+#nav-target > ul {
+  font-size: large;
+}
 .site-subtitle, 
 .site-title {
-  color: whitesmoke;
-  text-align: center;
+  color: black;
+  font-size: small;
+ 
 }
 
 .site-title {
@@ -223,8 +225,14 @@ a:hover {
   }
 }
 
-p, h4, h6{
-  color: white;
+#sobre > h2 ,
+#sobre > h4 ,
+#sobre > h6 ,
+#sobre > p ,
+#portfolio > h2 ,
+#contato > h2
+{
+  color: rgb(0, 0, 0);
 }
 
 
@@ -315,20 +323,18 @@ p, h4, h6{
   text-shadow: 0px 0px 50px rgba(233,226,21,2);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#contato > div > a:nth-child(1) > i {
+  color: black;
+}
+#contato > div > a:nth-child(2) > i{
+  color:black;
+}
+#contato > div > a:nth-child(3) > i{
+  color:black;
+}
+#contato > div > a:nth-child(4) > i{
+  color:black;
+}
 
 
 
@@ -363,10 +369,52 @@ body[dark] .jumbotron{
   color: whitesmoke;
 }
 
+body[dark] #sobre > h6 {
+  color:white;
+}
+
+body[dark] #sobre > h4 {
+  color:white;
+}
+body[dark] #sobre > h2 {
+  color:white;
+}
+body[dark] #sobre > p {
+  color:white;
+}
+
+body[dark] #portfolio > h2 {
+  color:white;
+}
+body[dark] #contato > h2 {
+  color:white;
+}
+body[dark] .site-subtitle{
+  color:white;
+}
+body[dark] .site-title{
+  color:white;
+}
+
+body[dark] #contato > div > a:nth-child(1) > i{
+  color:white;
+}
+
+body[dark] #contato > div > a:nth-child(2) > i{
+  color:white;
+}
+
+body[dark] #contato > div > a:nth-child(3) > i{
+  color:white;
+}
+
+body[dark] #contato > div > a:nth-child(4) > i{
+  color:white;
+}
+
 body[dark] .marcador{
   background-color: black;
   background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
-
   color: whitesmoke;
 }
 
