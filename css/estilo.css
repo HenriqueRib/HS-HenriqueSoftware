@@ -24,7 +24,8 @@
 
 /* Resposnsavel por escolher imagem de fundo e fonte e tamanho das letras*/
 body {
-  background: rgba(18, 133, 209, 0.823);
+
+  background-image:url('https://www.ofertaviva.com.br/photo-5/tecnologia-moderna-mural-wallpapers-para-o-escritorio-esports-salao-sala-de-estar-papel-parede-3d-azul-luz-brilhando-cubos.jpg');
   background-size: auto 100vh; 
   font-family: 'Audiowide', cursive;
   height: 100vh;
@@ -230,6 +231,7 @@ p, h4, h6{
 .portfolio .grid {
   display: grid;
   gap: 2em;
+
 }
 
 @media (min-width: 560px) {
@@ -342,9 +344,11 @@ p, h4, h6{
 /* Dark mode */
 body[dark]{
   background-color: black;
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
 }
 
 body[dark] .navbar{
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
   background-color: black;
 }
 
@@ -355,11 +359,14 @@ body[dark] .fa-lightbulb {
 
 body[dark] .jumbotron{
   background-color: black;
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
   color: whitesmoke;
 }
 
 body[dark] .marcador{
   background-color: black;
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
+
   color: whitesmoke;
 }
 
