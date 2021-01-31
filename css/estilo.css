@@ -26,7 +26,7 @@
 body {
   background-image:url('https://image.freepik.com/vetores-gratis/fundo-branco-elegante-textura_23-2148438345.jpg');
   background-size: auto 100vh; 
-  font-family: 'Audiowide', cursive;
+  font-family: "Arial";
   height: 100vh;
   font-size: 12px;
 }
@@ -120,12 +120,12 @@ a:hover {
 
 .site-title {
   font-size: 2.1em;
-  font-family: 'Audiowide', cursive;
+  font-family: "Arial";
 }
 
 .site-subtitle {
  font-style: italic;
- font-family: 'Press Start 2P', cursive;
+ font-family: "Arial";
  line-height: 1.8em;
 }
 
@@ -147,7 +147,7 @@ a:hover {
 .sobre h2,
 .contato h2,
 .portfolio h2 {
-  font-family: 'Audiowide', cursive;
+  font-family: "Arial";
   color: whitesmoke;
   margin-bottom: 1.5em;
   font-size: 2em;
