@@ -336,7 +336,10 @@ a:hover {
   color:black;
 }
 
-
+#sobre > h6:nth-child(10) > a{
+  color: blue;
+  text-decoration: none;
+}
 
 .fa-lightbulb{
   font-size: 20px;
@@ -417,5 +420,7 @@ body[dark] .marcador{
   background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=');
   color: whitesmoke;
 }
-
+body[dark] #sobre > h6:nth-child(10) > a{
+  color: white;
+}
 /*background-image:url(https://opmax.com.br/wp-content/uploads/2018/01/azul-degrade.jpg); */
