@@ -15,6 +15,9 @@
 
   <!-- Fontawesome CSS -->
   <script src="https://kit.fontawesome.com/84b4a4101c.js"></script>
+
+  <!-- Carrosel Splide -->
+  <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -96,83 +99,39 @@
 
   <section class="portfolio container" id="portfolio">
     <h2>Alguns projetos</h2>
-
-    <div id="carousel-legenda" class="text-center carousel slide" data-ride="carousel">
-
-      <!--Carousel -->
-
-      <!-- Indicadores -->
-      <ol class="carousel-indicators">
-
-        <li class="active" data-target="#carousel-legenda" data-slide-to="0"></li>
-
-        <li data-target="#carousel-legenda" data-slide-to="1"></li>
-
-        <li data-target="#carousel-legenda" data-slide-to="2"></li>
-
-        <li data-target="#carousel-legenda" data-slide-to="3"></li>
-
-        <li data-target="#carousel-legenda" data-slide-to="4"></li>
-
-      </ol>
-
-      <div class="carousel-inner">
-        <!--Inner -->
-
-        <div class="carousel-item active">
-          <a href="https://henriquerib.github.io/hsystem/Erasmo/">
-            <img src="imagens/projeto1.png" class="img-fluid">
-          </a>
-          <div class="carousel-caption">
-            <div class="d-none d-sm-block" style="padding-left: 75px"></div>
-          </div>
+    <div class="splide">
+      <div class="splide__slider"> <!-- relative -->
+        <div class="splide__track">
+          <ul class="splide__list" style="text-align: center;">
+            <li class="splide__slide">
+              <a href="https://henriquerib.github.io/hsystem/Erasmo/">
+                <div class="img1"></div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="https://erasmomaravilha.github.io/Empreemdimentos/">
+                <div class="img2"></div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="https://henriquerib.github.io/hsystem/HG-SYSTEM/">
+                <div class="img3"></div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="https://henriquerib.github.io/hsystem/HsystemP.html">
+                <div class="img4"></div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="https://henriquerib.github.io/ImersaoCSS/">
+                <div class="img5"></div>
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <div class="carousel-item">
-          <a href="https://erasmomaravilha.github.io/Empreemdimentos/">
-            <img src="imagens/projeto2.png" class="img-fluid">
-          </a>
-          <div class="carousel-caption d-none d-sm-block" style="padding-left: 75px"></div>
-        </div>
-
-        <div class="carousel-item" style="padding: auto;">
-          <a href="https://henriquerib.github.io/hsystem/HG-SYSTEM/">
-            <img src="imagens/projeto3.gif" class="img-fluid">
-          </a>
-          <div class="carousel-caption d-none d-sm-block" style="padding-left: 75px"></div>
-        </div>
-
-        <div class="carousel-item" style="padding: auto;">
-          <a href="https://henriquerib.github.io/hsystem/HsystemP.html">
-            <img src="imagens/projeto4.png" class="img-fluid">
-          </a>
-          <div class="carousel-caption d-none d-sm-block" style="padding-left: 75px">
-          </div>
-        </div>
-
-        <div class="carousel-item" style="padding: auto;">
-          <a href="https://henriquerib.github.io/ImersaoCSS/">
-            <img src="imagens/projeto5.gif" class="img-fluid">
-          </a>
-          <div class="carousel-caption d-none d-sm-block" style="padding-left: 75px">
-          </div>
-        </div>
-
       </div>
-      <!--/Inner -->
-
-      <!-- Controles -->
-      <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-
-      <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-
     </div>
-
-    <!--/Carousel -->
 
   </section>
   <section class="contato container" id="contato">
@@ -221,7 +180,7 @@
         <br><br>
         <a href="http://linkedin.com/in/henrique-ribeiro-87245215b" target="_blank"
           title="Ir para a página do meu linkedin">
-          <i class="fab fa-linkedin" style="font-size: 30px;"></i>
+          <i class="fab fa-linkedin" style="color: #0e76a8; font-size: 30px;"></i>
         </a>
         <a href="https://github.com/HenriqueRib" title="Ir para a página do meu Github" target="_blank">
           <i class="fab fa-github redes" style=" color: black;font-size: 30px;"></i>
@@ -241,8 +200,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
+  <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/dark.js"></script>
+  <script src="js/slider.js"></script>
+
 </footer>
 
 </html>
