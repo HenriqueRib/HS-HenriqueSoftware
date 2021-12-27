@@ -1,0 +1,63 @@
+body {
+  background-color: #4fd8e8;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(92, 21, 21, 0),
+    rgba(202, 47, 47, 0.4),
+    rgba(202, 47, 47, 0.4),
+    rgba(202, 47, 47, 0.726),
+    rgba(202, 47, 47, 0.726),
+    rgba(92, 21, 21, 0)
+  );
+}
+
+.principal {
+  color: aqua;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.letras {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  transition: 3s;
+}
+
+.letras :hover {
+  color: rgba(18, 11, 116, 0.4);
+  transition: 2s;
+}
+
+.letras a:hover {
+  text-decoration: none;
+}
+@keyframes efeito_caindo {
+  from {
+    width: 450px;
+    height: 750px;
+  }
+  to {
+    width: 800px;
+    margin: -250px 0;
+    height: 900px;
+  }
+}
+
+.img_detetive {
+  width: 450px;
+  height: 750px;
+}
+
+.img_detetive:hover {
+  animation-name: efeito_caindo;
+  animation-duration: 15s;
+}
+
+.popover_resposta {
+  display: contents !important;
+}
+.popover_resposta:hover {
+  display: block !important;
+}
